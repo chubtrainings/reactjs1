@@ -15,6 +15,7 @@ pipeline {
                     // Run build commands here
                     // Example: sh 'npm install'
                     sh 'docker images'
+                    sh 'docker build '
                     
                     echo 'Building the project...'
                     // Add your build commands here
