@@ -1,10 +1,7 @@
 pipeline {
     agent any
 
-    environment {
-        // Define environment variables here, if needed
-        // Example: MY_ENV_VAR = 'value'
-    }
+   
 
     stages {
         stage('Checkout') {
