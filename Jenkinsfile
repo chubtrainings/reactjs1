@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git credentialsId: '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', url: 'https://github.com/chubtrainings/reactjs1.git'
+                git credentialsId: 'token', url: 'https://github.com/chubtrainings/reactjs1.git'
             }
         }
 
